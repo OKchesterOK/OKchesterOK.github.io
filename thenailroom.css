@@ -22,13 +22,14 @@ a {
     text-decoration: none;
 }
 
-.baner {
+.banner {
+    position: relative;
     height: 100%;
-    background: url("img/baner.jpg") no-repeat 100% 100%;
+    background: url("img/banner.jpg") no-repeat 100% 100%;
     background-size: cover;
 }
 
-.baner-logo {
+.banner-logo {
     display: inline-block;
     position: absolute;
     top: 50%;
@@ -44,20 +45,20 @@ a {
     position: relative;
     border: 15px solid transparent;
     border-top: 15px solid #FF0000;
-    -webkit-animation: mymove 3s infinite;
-    animation: mymove 3s infinite;
+    -webkit-animation: mymove 2s infinite;
+    animation: mymove 2s infinite;
 }
 
 @-webkit-keyframes mymove {
-    0%   {top: 0px;}
-    50%  {top: 10px}
-    100% {top: 0px;}
+    0%   {top: -5px;}
+    50%  {top: 5px}
+    100% {top: -5px;}
 }
 
 @keyframes mymove {
-    0%   {top: 0px;}
-    50%  {top: 10px}
-    100% {top: 0px;}
+    0%   {top: -5px;}
+    50%  {top: 5px}
+    100% {top: -5px;}
 }
 
 .contact {
@@ -65,5 +66,6 @@ a {
     top: 0;
     right: 0;
     margin: 10px 25px;
-    color: #FF0000;
+    color: #000000;
 }
+
