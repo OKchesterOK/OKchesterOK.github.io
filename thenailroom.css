@@ -63,7 +63,7 @@ a {
   from {width: 0;}
 }
 
-.triangle {
+.logo-triangle {
     position: relative;
     border: 15px solid transparent;
     border-top: 15px solid #FF0000;
@@ -85,10 +85,14 @@ a {
 }
 
 .contact {
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
     margin: 10px 25px;
     color: #000000;
+
 }
 
+.contact img {
+    vertical-align: middle;
+}
