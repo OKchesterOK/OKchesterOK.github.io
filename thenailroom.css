@@ -35,6 +35,7 @@ a {
 }
 
 .banner-logo {
+    width: 4em;
     display: inline-block;
     position: absolute;
     top: 50%;
@@ -46,12 +47,29 @@ a {
     text-align: center;
 }
 
+.typing {
+    width: 4em;
+    white-space:nowrap;
+    overflow:hidden;
+    -webkit-animation: type 4s steps(50, end);
+    animation: type 4s steps(50, end);
+}
+
+@keyframes type{
+  from {width: 0;}
+}
+
+@-webkit-keyframes type{
+  from {width: 0;}
+}
+
 .triangle {
     position: relative;
     border: 15px solid transparent;
     border-top: 15px solid #FF0000;
     -webkit-animation: mymove 2s infinite;
     animation: mymove 2s infinite;
+    display: none;
 }
 
 @-webkit-keyframes mymove {
