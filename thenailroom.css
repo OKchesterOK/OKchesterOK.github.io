@@ -90,9 +90,10 @@ a {
     right: 0;
     margin: 10px 25px;
     color: #000000;
-
+    width: 100px;
+    height: 25px;
 }
 
-.contact img {
+.contact img, .contact span {
     vertical-align: middle;
 }
