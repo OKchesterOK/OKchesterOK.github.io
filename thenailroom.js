@@ -1,3 +1,3 @@
 (function(){
-    $('.triangle').delay(4000).show(0);
+    $('.logo-triangle').delay(4000).show(0);
 })();

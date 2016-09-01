@@ -90,10 +90,16 @@ a {
     right: 0;
     margin: 10px 25px;
     color: #000000;
-    width: 100px;
+    width: 150px;
     height: 25px;
 }
 
-.contact img, .contact span {
-    vertical-align: middle;
+.contact-triangle {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 5px 0 5px 7px;
+    border-color: transparent transparent transparent #000000;
+    margin-left: 5px;
 }
