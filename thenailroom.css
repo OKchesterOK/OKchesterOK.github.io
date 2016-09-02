@@ -151,7 +151,10 @@ a {
     background-color: #F2F2F2;
     opacity: 0.92;
     box-shadow: 5px 5px 5px grey;
-    text-align: center;
+}
+
+.contact-information > div {
+    width: 350px;
 }
 
 .back-triangle {
@@ -162,4 +165,35 @@ a {
     border-width: 5px 7px 5px 0;
     border-color: transparent #000000 transparent transparent;
     margin-right: 10px;
+}
+
+.contact-logo {
+    text-align: center;
+    font-family: Homework;
+    font-size: 72px;
+}
+
+.contact-img {
+    height: 24px;
+    width: 24px;
+    display: inline-block;
+    margin: 10px 20px 0 25px;
+}
+
+.address-img {
+    background: no-repeat url("img/contact.png") 0 -78px;
+}
+
+.phone-img {
+    background: no-repeat url("img/contact.png") 0 -244px;
+}
+
+.shedule-img {
+    background: no-repeat url("img/contact.png") 0 0;
+}
+
+.contact-content {
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px 20px 0 0;
 }
