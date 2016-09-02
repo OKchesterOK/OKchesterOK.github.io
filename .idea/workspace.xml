@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a93e62d2-b4ff-4b7e-869a-db86227c2cc5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thenailroom.css" afterPath="$PROJECT_DIR$/thenailroom.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thenailroom.js" afterPath="$PROJECT_DIR$/thenailroom.js" />
     </list>
     <ignored path="TheNailRoom.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -51,8 +48,8 @@
       <file leaf-file-name="thenailroom.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/thenailroom.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="579">
-              <caret line="131" column="19" selection-start-line="131" selection-start-column="19" selection-end-line="131" selection-end-column="19" />
+            <state relative-caret-position="443">
+              <caret line="165" column="0" selection-start-line="165" selection-start-column="0" selection-end-line="165" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -120,8 +117,8 @@
         <option value="$PROJECT_DIR$/TheNailRoom.js" />
         <option value="$PROJECT_DIR$/TheNailRoom.css" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/thenailroom.css" />
         <option value="$PROJECT_DIR$/thenailroom.js" />
+        <option value="$PROJECT_DIR$/thenailroom.css" />
       </list>
     </option>
   </component>
@@ -269,12 +266,12 @@
       <workItem from="1472542055234" duration="12188000" />
       <workItem from="1472634589158" duration="12352000" />
       <workItem from="1472737721437" duration="13175000" />
-      <workItem from="1472804908449" duration="4590000" />
+      <workItem from="1472804908449" duration="4853000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66181000" />
+    <option name="totallyTimeSpent" value="66444000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -624,8 +621,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/thenailroom.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="579">
-          <caret line="131" column="19" selection-start-line="131" selection-start-column="19" selection-end-line="131" selection-end-column="19" />
+        <state relative-caret-position="443">
+          <caret line="165" column="0" selection-start-line="165" selection-start-column="0" selection-end-line="165" selection-end-column="0" />
           <folding />
         </state>
       </provider>
