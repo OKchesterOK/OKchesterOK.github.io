@@ -21,6 +21,7 @@ html, body {
     height: 100%;
     min-width: 1080px;
     font-family: OpenSans;
+    overflow: hidden;
 }
 
 a {
@@ -28,6 +29,8 @@ a {
 }
 
 .banner {
+    z-index: 3;
+    /*display: inline-block;*/
     position: relative;
     height: 100%;
     background: url("img/banner-min.jpg") no-repeat 100% 100%;
@@ -84,7 +87,7 @@ a {
     100% {top: -5px;}
 }
 
-.contact {
+.contact-button {
     position: fixed;
     top: 0;
     right: 0;
@@ -102,4 +105,61 @@ a {
     border-width: 5px 0 5px 7px;
     border-color: transparent transparent transparent #000000;
     margin-left: 5px;
+}
+
+.contact {
+    display: inline-block;
+    position: fixed;
+    left: -7%;
+    top: -7%;
+    width: 110%;
+    height: 110%;
+}
+
+.contact-banner {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    z-index: 0;
+}
+
+.contact-back {
+    position: absolute;
+    left: 110px;
+    top: 50px;
+    width: 400px;
+    height: 45px;
+    line-height: 45px;
+    z-index: 1;
+    background-color: #F2F2F2;
+    opacity: 0.92;
+    box-shadow: 5px 5px 5px grey;
+    padding-left: 20px;
+}
+
+.contact-back a {
+    color: #000000;
+}
+
+.contact-information {
+    position: absolute;
+    left: 110px;
+    top: 105px;
+    width: 400px;
+    height: 450px;
+    z-index: 1;
+    background-color: #F2F2F2;
+    opacity: 0.92;
+    box-shadow: 5px 5px 5px grey;
+    text-align: center;
+}
+
+.back-triangle {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 5px 7px 5px 0;
+    border-color: transparent #000000 transparent transparent;
+    margin-right: 10px;
 }
