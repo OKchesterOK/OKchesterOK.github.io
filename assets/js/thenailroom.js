@@ -21,7 +21,7 @@ function showGoogleMaps() {
 
 google.maps.event.addDomListener(window, 'load', showGoogleMaps);
 
-$(document).ready(function() {
+(function() {
     $('.contact-button').on('click', function () {
         $('.banner').animate({
             right: '100%'
@@ -34,4 +34,4 @@ $(document).ready(function() {
         }, 1000);
         $('.contact-button').delay(1000).show(0);
     });
-});
+})();
