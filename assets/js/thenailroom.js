@@ -1,5 +1,17 @@
 (function(){
     $('.logo-triangle').delay(4000).show(0);
+    $('.contact-button').on('click', function () {
+        $('.banner').animate({
+            right: '100%'
+        }, 1000);
+        $('.contact-button').hide();
+    });
+    $('.back-link').on('click', function () {
+        $('.banner').animate({
+            right: '0'
+        }, 1000);
+        $('.contact-button').delay(1000).show(0);
+    });
 })();
 
 function showGoogleMaps() {
@@ -19,19 +31,3 @@ function showGoogleMaps() {
     });
 }
 google.maps.event.addDomListener(window, 'load', showGoogleMaps);
-
-(function() {
-    $('.contact-button').on('click', function () {
-        $('.banner').animate({
-            right: '100%'
-        }, 1000);
-        $('.contact-button').hide();
-    });
-    $('.back-link').on('click', function () {
-        $('.banner').animate({
-            right: '0'
-        }, 1000);
-        $('.contact-button').delay(1000).show(0);
-    });
-})();
-
