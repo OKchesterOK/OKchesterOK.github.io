@@ -18,7 +18,6 @@ function showGoogleMaps() {
         animation: google.maps.Animation.DROP
     });
 }
-
 google.maps.event.addDomListener(window, 'load', showGoogleMaps);
 
 (function() {
@@ -35,3 +34,4 @@ google.maps.event.addDomListener(window, 'load', showGoogleMaps);
         $('.contact-button').delay(1000).show(0);
     });
 })();
+
