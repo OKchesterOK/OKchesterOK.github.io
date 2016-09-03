@@ -93,7 +93,7 @@ a {
     right: 0;
     margin: 10px 25px;
     color: #000000;
-    width: 150px;
+    width: 100px;
     height: 25px;
 }
 
@@ -180,6 +180,27 @@ a {
     margin: 10px 20px 0 25px;
 }
 
+.metro {
+    background: no-repeat url("../img/metro.png");
+    z-index: 3;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.contact-img, .contact-content {
+    display: inline-block;
+}
+
+.day, .time {
+    display: inline-block;
+}
+
+.time {
+    padding-left: 10px;
+}
+
 .address-img {
     background: no-repeat url("../img/contact.png") 0 -78px;
 }
@@ -193,6 +214,7 @@ a {
 }
 
 .contact-content {
+    width: 250px;
     display: inline-block;
     vertical-align: top;
     margin: 10px 20px 0 0;
