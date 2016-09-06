@@ -19,6 +19,8 @@ function showGoogleMaps() {
         zoom: 18,
         streetViewControl: false,
         scaleControl: true,
+        navigationControl: false,
+        mapTypeControl: false,
         mapTypeId: google.maps.MapTypeId.ROADMAP,
         center: {lat: 50.458509281147066, lng: 30.42157966466516}
     };
@@ -26,8 +28,7 @@ function showGoogleMaps() {
         marker = new google.maps.Marker({
         position: {lat: 50.45848034713743, lng: 30.42351667728076},
         map: map,
-        draggable: false,
-        animation: google.maps.Animation.DROP
+        draggable: false
     });
 }
 
