@@ -91,7 +91,7 @@ a {
     position: fixed;
     top: 0;
     right: 0;
-    margin: 10px 25px;
+    margin: 20px 30px;
     color: #000000;
     width: 100px;
     height: 25px;
@@ -184,9 +184,11 @@ a {
     background: no-repeat url("../img/metro.png");
     z-index: 3;
     width: 24px;
-    height: 24px;
+    height: 21px;
+    background-size: 100%;
     display: inline-block;
     vertical-align: top;
+    margin: 3px 3px 0 0;
 }
 
 .contact-img, .contact-content {

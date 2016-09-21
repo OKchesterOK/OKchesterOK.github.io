@@ -19,7 +19,6 @@ function showGoogleMaps() {
         zoom: 18,
         streetViewControl: false,
         scaleControl: true,
-        navigationControl: false,
         mapTypeControl: false,
         mapTypeId: google.maps.MapTypeId.ROADMAP,
         center: {lat: 50.458509281147066, lng: 30.42157966466516}
