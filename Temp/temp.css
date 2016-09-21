@@ -19,9 +19,9 @@
 
 html, body {
     height: 100%;
-    max-width: 1367px;
     font-family: OpenSans;
     overflow: hidden;
+    margin: 0 auto;
 }
 
 .banner {
@@ -33,14 +33,14 @@ html, body {
 
 .logo {
     font-family: Homework;
-    font-size: 140px;
+    font-size: 120px;
     color: #FF0000;
     text-align: center;
 }
 
 .content {
-    width: 750px;
-    margin: 0 auto;
+    width: 80%;
+    margin: 20px auto 0;
     text-align: center;
     font-size: 24px;
     font-weight: bold;
@@ -48,14 +48,15 @@ html, body {
 
 .social {
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .soc {
     display: inline-block;
-    margin: 10px 35px;
-    width: 75px;
-    height: 75px;
-    border-radius: 75px;
+    margin: 10px 30px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
 }
 
 .soc a {
