@@ -1,41 +1,88 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>TheNailRoom</title>
-        <link rel="stylesheet" type="text/css" href="assets/css/normalize.css">
-        <link rel="stylesheet" type="text/css" href="assets/css/thenailroom.css">
-    </head>
-    <body>
-        <div class="banner">
-            <a href=# class="contact-button">
-                <span>Контакты</span>
-                <span class="contact-triangle"></span>
-            </a>
-            <div class="banner-logo">
-                <p class="typing">#TheNailRoom</p>
-                <span class="logo-triangle"></span>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <title>Ногтевая студия #TheNailRoom | Киев</title>
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/normalize.css"/>
+    <link rel="stylesheet" href="assets/css/main.css"/>
+
+</head>
+<body>
+
+    <div id="page-wrapper">
+
+        <!-- Переключалка окна -->
+        <input id="contacts-trigger" type="checkbox" />
+        <label for="contacts-trigger" class="transition">
+            <span>Контакты -></span>
+            <span><- Назад</span>
+        </label>
+
+        <div id="main-content" class="transition">
+
+            <div class="page page-main img1">
+                <div class="banner-logo">
+                    <p class="typing">#TheNailRoom</p>
+                    <span class="logo-triangle"></span>
+                </div>
             </div>
-        </div>
-        <div class="contact">
-            <div id="googlemaps" class="contact-banner"></div>
-            <div class="contact-back">
-                <a href=# class="back-link">
-                    <span class="back-triangle"></span>
-                    <span>Назад</span>
-                </a>
-            </div>
-            <div class="contact-information">
-                <h1 class="contact-logo">TheNailRoom</h1>
-                <div>
-                    <div class="contact-img address-img"></div>
-                    <div class="contact-content">
-                        <div class="metro"></div>
-                        <span>Берестейская</span><br />
-                        <span>пр-т. Победы 80/57</span><br />
-                        <span><i style="font-size: 10px">(вход под вывеской "ПЕРУКАРНЯ", возле отделения <b>Новой Почты №90</b>)</i></span>
+
+            <div class="page page-main img2">
+                <div class="portfolio-slider">
+                    <div class="foto image1"></div>
+                    <div class="foto image2"></div>
+                    <div class="foto image3"></div>
+                    <div class="foto image4"></div>
+                    <div class="foto image5"></div>
+                    <div class="foto image6"></div>
+                    <div class="foto image7"></div>
+                    <div class="foto image8"></div>
+                    <div class="foto image9"></div>
+                    <div class="foto image10"></div>
+                </div>
+                <div class="infopage-content">
+                    <span>
+                        «TheNailRoom» предлагает все современные услуги по уходу за ногтями и кожей рук и ног.<br />
+                        Вам предоставляется возможность получить все необходимые услуги, <br />
+                        начиная от маникюра и педикюра и заканчивая моделированием и дизайном ногтей.<br /><br />
+                        Индивидуальный инструмент.<br />
+                        Гарантия на работу 21 день.<br /><br />
+                        Работаем без выходных, с 08.00 до 22.00.<br /><br />
+                        Запись по телефону:<br />
+                        +38 (093) 801 76 26<br />
+                        +38 (096) 764 58 86<br /><br />
+                        Наши адреса:<br />
+                        м. Берестейская, пр-т. Победы, 80/57<br />
+                        м. Крещатик, ул. Лютеранская, 13<br /><br />
+                    </span>
+                    <div class="entry-button">
+                        <button>Записатся online!</button>
                     </div>
                 </div>
+            </div>
+
+            <!--<div class="page page-main img3">-->
+                <!--<h1>Page 3</h1>-->
+            <!--</div>-->
+
+            <!--<div class="page page-main img4">-->
+                <!--<h1>Page 4</h1>-->
+            <!--</div>-->
+
+            <!--<div class="page page-main img5">-->
+                <!--<h1>Page 5</h1>-->
+            <!--</div>-->
+
+        </div>
+
+        <div id="contacts-page" class="page contacts transition">
+            <div id="googlemaps" class="contact-banner"></div>
+            <div class="contact-back"></div>
+            <div class="contact-information">
+                <h1 class="contact-logo">#TheNailRoom</h1>
                 <div>
                     <div class="contact-img phone-img"></div>
                     <div class="contact-content">
@@ -67,11 +114,22 @@
                         </div>
                     </div>
                 </div>
+                <div>
+                    <div class="contact-img social-img"></div>
+                    <div class="contact-content social-content">
+                        <a href="http://vk.com/thenailroom" title="ВКонтакте"><img src="assets/img/vk.png"></a>
+                        <a href="http://facebook.com/thenailroomkyiv" title="Facebook"><img src="assets/img/fb.png"></a>
+                        <a href="http://instagram.com/thenailroomkyiv" title="Instagram"><img src="assets/img/inst.png"></a>
+                    </div>
+                </div>
             </div>
         </div>
-        <script type="text/javascript" src="assets/js/jquery-3.0.0.js"></script>
-        <script type="text/javascript" src="assets/js/angular.min.js"></script>
-        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBPV2lMBCza8IZPSDEdvpkl9qkFZUVVGgk&callback=initMap"></script>
-        <script type="text/javascript" src="assets/js/thenailroom.js"></script>
-    </body>
+    </div>
+
+    <script type="text/javascript" src="assets/js/jquery-3.1.0.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.mousewheel.min.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBPV2lMBCza8IZPSDEdvpkl9qkFZUVVGgk&callback=initMap"></script>
+    <script type="text/javascript" src="assets/js/app.js"></script>
+
+</body>
 </html>
