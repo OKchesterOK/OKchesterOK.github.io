@@ -41,6 +41,12 @@
     $('.logo-triangle').delay(4000).show(0);
 })();
 
+(function(){
+    $('.slick-carousel').slick({
+        dots:true
+    });
+})();
+
 function showGoogleMaps() {
     var mapOptions = {
         zoom: 13,
