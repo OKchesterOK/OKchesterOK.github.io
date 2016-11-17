@@ -262,3 +262,12 @@ div.page {
 .slider-page.bg2 { background-image: url(../img/nails/2.jpg) }
 .slider-page.bg3 { background-image: url(../img/nails/3.jpg) }
 .slider-page.bg4 { background-image: url(../img/nails/4.jpg) }
+
+.slider-content {
+    font-family: OpenSans;
+    font-size: 21px;
+    position: relative;
+    width: 600px;
+    left: 650px;
+    top: 100px;
+}
