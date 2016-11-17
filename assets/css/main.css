@@ -98,7 +98,7 @@ div.page {
 }
 
 .page.img1 { background: url(../img/banner-min.jpg) no-repeat 100% 100%; background-size: cover; }
-.page.img2 { background-color: #FFFFFF; }
+.page.img2 { background-color: #000000; }
 /*.page.img3 { background: url(../img/3.jpg) no-repeat 0 0; background-size: cover; }*/
 /*.page.img4 { background: url(../img/4.jpg) no-repeat 0 0; background-size: cover; }*/
 /*.page.img5 { background: url(../img/5.jpg) no-repeat 0 0; background-size: cover; }*/
@@ -254,3 +254,11 @@ div.page {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
+.slider-page {
+    background-size: cover;
+}
+
+.slider-page.bg1 { background-image: url(../img/nails/1.jpg) }
+.slider-page.bg2 { background-image: url(../img/nails/2.jpg) }
+.slider-page.bg3 { background-image: url(../img/nails/3.jpg) }
+.slider-page.bg4 { background-image: url(../img/nails/4.jpg) }

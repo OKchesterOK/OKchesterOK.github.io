@@ -42,7 +42,7 @@
 })();
 
 (function(){
-    $('.slick-carousel').slick({
+    $('.slick-slider').slick({
         dots:true
     });
 })();
