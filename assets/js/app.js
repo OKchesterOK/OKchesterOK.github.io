@@ -1,50 +1,5 @@
-(function () {
-
-    var mainContent = $('#main-content'),
-        pagesObject = $('.page-main'),
-        pagesCount = pagesObject.length,
-        currentPage = 0,
-        pageHeight,
-        resizeTimeout;
-
-    function initialize() {
-        pageHeight = pagesCount ? $(pagesObject[0]).height() : 0;
-    }
-
-    function animateToPage(event, deltaY) {
-        currentPage -= deltaY;
-        if (currentPage < 0) {
-            currentPage = 0;
-        }
-        if (currentPage >= pagesCount - 1) {
-            currentPage = pagesCount - 1;
-        }
-        mainContent.css({
-            marginTop: -(currentPage * pageHeight)
-        });
-    }
-
-    initialize();
-    $(window).resize(function () {
-        clearTimeout(resizeTimeout);
-        resizeTimeout = setTimeout(function() {
-            initialize();
-            animateToPage(null, 0);
-        }, 200);
-    });
-
-    pagesObject.on('mousewheel', animateToPage);
-
-})();
-
 (function() {
     $('.logo-triangle').delay(4000).show(0);
-})();
-
-(function(){
-    $('.slick-slider').slick({
-        dots:true
-    });
 })();
 
 function showGoogleMaps() {
