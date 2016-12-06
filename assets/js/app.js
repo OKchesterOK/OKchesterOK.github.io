@@ -18,8 +18,8 @@ function showGoogleMaps() {
         '</div>'+
         '<p id="firstHeading" class="firstHeading" style="font-family: Homework; color: #FF0000; font-size: 55px; margin: 0">#TheNailRoom</p>'+
         '<div id="bodyContent">'+
-        '<h4>метро Берестейская</h4>'+
-        '<h2>проспект Победы, 80/57</h2>'+
+        '<p>метро Берестейская</p>'+
+        '<p>проспект Победы, 80/57</p>'+
         '</div>'+
         '</div>';
 
@@ -28,8 +28,8 @@ function showGoogleMaps() {
         '</div>'+
         '<p id="firstHeading" class="firstHeading" style="font-family: Homework; color: #FF0000; font-size: 55px; margin: 0">#TheNailRoom</p>'+
         '<div id="bodyContent">'+
-        '<h3>метро Крещатик</h3>'+
-        '<h2>улица Лютеранская, 13</h2>'+
+        '<p>метро Крещатик</p>'+
+        '<p>улица Лютеранская, 13</p>'+
         '</div>'+
         '</div>';
 
