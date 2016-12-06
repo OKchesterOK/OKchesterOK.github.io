@@ -31,6 +31,20 @@ header {
     top: 0;
     left: 0;
     z-index: 10000;
+    text-align: center
+}
+
+.header-menu a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: OpenSans;
+    font-size: 14px;
+    padding: 0 25px;
+}
+
+.sub-menu {
+    line-height: 60px;
+    display: inline-block;
 }
 
 #contacts-trigger {
@@ -47,7 +61,7 @@ header {
 
 #contacts-trigger + label {
     position: fixed;
-    z-index: 20000;
+    z-index: 30000;
     width: 200px;
     text-align: center;
     height: 60px;
@@ -113,7 +127,7 @@ div.page {
     position: fixed;
     top: 0;
     left: 100%;
-    z-index: 20000;
+    z-index: 2000;
     will-change: left;
 }
 
@@ -184,30 +198,15 @@ div.page {
     z-index: 0;
 }
 
-.contact-back {
-    position: absolute;
-    left: 10px;
-    top: 0;
-    width: 280px;
-    height: 40px;
-    line-height: 45px;
-    z-index: 1;
-    background-color: #F2F2F2;
-    opacity: 0.92;
-    box-shadow: 5px 5px 5px grey;
-    padding-left: 20px;
-}
-
 .contact-information {
     position: absolute;
-    left: 10px;
-    top: 50px;
+    left: 0;
+    top: 60px;
     width: 300px;
-    height: 380px;
+    height: 100%;
     z-index: 1;
-    background-color: #F2F2F2;
-    opacity: 0.92;
-    box-shadow: 5px 5px 5px grey;
+    background-color: rgba(0, 0, 0, 0.85);
+    color: #FFFFFF;
 }
 
 .contact-information > div {

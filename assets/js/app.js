@@ -9,14 +9,14 @@ function showGoogleMaps() {
         scaleControl: true,
         mapTypeControl: false,
         mapTypeId: google.maps.MapTypeId.ROADMAP,
-        center: {lat: 50.4525695, lng: 30.4574464}
+        center: {lat: 50.460111, lng: 30.456073}
     };
     var map = new google.maps.Map(document.getElementById('googlemaps'), mapOptions);
 
     var contentString1 = '<div id="content" style="text-align: center; font-family: OpenSans">'+
         '<div id="siteNotice">'+
         '</div>'+
-        '<h1 id="firstHeading" class="firstHeading" style="font-family: Homework; color: #FF0000; font-size: 55px; margin: 0">#TheNailRoom</h1>'+
+        '<p id="firstHeading" class="firstHeading" style="font-family: Homework; color: #FF0000; font-size: 55px; margin: 0">#TheNailRoom</p>'+
         '<div id="bodyContent">'+
         '<h4>метро Берестейская</h4>'+
         '<h2>проспект Победы, 80/57</h2>'+
@@ -26,7 +26,7 @@ function showGoogleMaps() {
     var contentString2 = '<div id="content" style="text-align: center; font-family: OpenSans">'+
         '<div id="siteNotice">'+
         '</div>'+
-        '<h1 id="firstHeading" class="firstHeading" style="font-family: Homework; color: #FF0000; font-size: 55px; margin: 0">#TheNailRoom</h1>'+
+        '<p id="firstHeading" class="firstHeading" style="font-family: Homework; color: #FF0000; font-size: 55px; margin: 0">#TheNailRoom</p>'+
         '<div id="bodyContent">'+
         '<h3>метро Крещатик</h3>'+
         '<h2>улица Лютеранская, 13</h2>'+
