@@ -207,6 +207,29 @@ div.page {
     line-height: 45px;
     z-index: 1;
     background-color: rgba(0, 0, 0, 0.85);
+    text-align: center;
+}
+
+.adress {
+    color: #FFFFFF;
+    width: 240px;
+    height: 28px;
+    font-family: OpenSans;
+    font-size: 14px;
+    line-height: 14px;
+    float: left;
+    vertical-align: top;
+    background: no-repeat url(../img/contact.png) 0 -76px;
+    margin-left: 340px;
+}
+
+.adress:first-child {
+    margin-left: 370px;
+    padding-left: 10px;
+}
+
+.adress > span {
+    display: block;
 }
 
 .contact-information {
@@ -272,8 +295,17 @@ div.page {
 }
 
 .social-content img {
-    height: 45px;
-    border-radius: 47px;
-    border: 2px solid #FFFFFF;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    height: 18px;
+    margin-right: 5px;
+}
+
+.social-content a {
+    text-decoration: none;
+    color: #FFFFFF;
+    display: block;
+    padding-bottom: 5px;
+    font-size: 14px;
+    line-height: 14px;
+    font-style: italic;
+    cursor: pointer;
 }
