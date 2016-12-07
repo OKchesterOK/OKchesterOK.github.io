@@ -1,5 +1,7 @@
 (function() {
-    $('.logo-triangle').delay(4000).show(0);
+    $('.logo-triangle').delay(4100).show(0);
+    $('.logo-triangle-shadow').delay(4100).show(0);
+    $('.slogan').delay(4000).css( "display", "block").show(4000);
 })();
 
 $(document).ready(function() {

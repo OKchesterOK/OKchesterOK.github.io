@@ -42,6 +42,11 @@ header {
     padding: 0 25px;
 }
 
+.header-menu a:hover {
+    color: #FF0000;
+    cursor: pointer;
+}
+
 .sub-menu {
     line-height: 60px;
     display: inline-block;
@@ -136,11 +141,11 @@ div.page {
 }
 
 .img-start { background: url(../img/banner-min.jpg) no-repeat 100% 100%; background-size: cover; }
-.page.img1 { background-color: rgba(0, 0, 0, 0); }
-.page.img2 { background-color: rgba(0, 0, 0, 0.7); }
-.page.img3 { background-color: rgba(0, 0, 0, 0); }
-.page.img4 { background-color: rgba(0, 0, 0, 0.7); }
-.page.img5 { background-color: rgba(0, 0, 0, 0); }
+.page.img1 { background-color: rgba(0, 0, 0, 0.9); }
+.page.img2 { background-color: rgba(0, 0, 0, 0); }
+.page.img3 { background-color: rgba(0, 0, 0, 0.7); }
+.page.img4 { background-color: rgba(0, 0, 0, 0); }
+.page.img5 { background-color: rgba(0, 0, 0, 0.7); }
 
 .banner-logo {
     width: 4em;
@@ -149,6 +154,7 @@ div.page {
     top: 20%;
     right: 45px;
     color: #FF0000;
+    text-shadow: 2px 2px #000000;
     font-family: Homework;
     font-size: 105px;
     text-align: center;
@@ -160,6 +166,12 @@ div.page {
     overflow:hidden;
     -webkit-animation: type 4s steps(50, end);
     animation: type 4s steps(50, end);
+}
+
+.slogan {
+    display: none;
+    font-size: 40px;
+    margin: -25px 0 0 60px;
 }
 
 @keyframes type{
@@ -177,18 +189,30 @@ div.page {
     -webkit-animation: mymove 2s infinite;
     animation: mymove 2s infinite;
     display: none;
+    z-index: 100000;
+}
+
+.logo-triangle-shadow {
+    position: relative;
+    border: 15px solid transparent;
+    border-top: 15px solid #000000;
+    -webkit-animation: mymove 2s infinite;
+    animation: mymove 2s infinite;
+    display: none;
+    z-index: 10000;
+    left: -27px;
 }
 
 @-webkit-keyframes mymove {
-    0%   {top: -105px;}
-    50%  {top: -85px}
-    100% {top: -105px;}
+    0%   {top: -85px;}
+    50%  {top: -65px}
+    100% {top: -85px;}
 }
 
 @keyframes mymove {
-    0%   {top: -105px;}
-    50%  {top: -85px}
-    100% {top: -105px;}
+    0%   {top: -85px;}
+    50%  {top: -65px}
+    100% {top: -85px;}
 }
 
 .contact-banner {
@@ -236,7 +260,7 @@ div.page {
     position: absolute;
     left: 0;
     top: 60px;
-    width: 300px;
+    width: 350px;
     height: 100%;
     z-index: 1;
     background-color: rgba(0, 0, 0, 0.85);
