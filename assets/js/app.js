@@ -1,6 +1,6 @@
 (function() {
-    $('.logo-triangle').delay(4100).show(0);
-    $('.logo-triangle-shadow').delay(4100).show(0);
+    $('.logo-triangle').delay(4300).show(0);
+    $('.logo-triangle-shadow').delay(4300).show(0);
 })();
 
 function sloganDelay() {
