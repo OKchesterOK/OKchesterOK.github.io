@@ -8,23 +8,6 @@
     src: url(../fonts/OpenSans-Regular.ttf);
 }
 
-* {
-    margin: 0;
-    padding: 0;
-}
-
-*,
-*:after,
-*:before {
-    box-sizing: border-box;
-}
-
-html {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-rendering: optimizelegibility;
-}
-
 html,
 body {
     width: 100%;
