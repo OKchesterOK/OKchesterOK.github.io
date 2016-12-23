@@ -1,11 +1,28 @@
 @font-face {
     font-family: Homework;
-    src: url(../font/homework.ttf);
+    src: url(../fonts/homework.ttf);
 }
 
 @font-face {
     font-family: OpenSans;
-    src: url(../font/OpenSans-Regular.ttf);
+    src: url(../fonts/OpenSans-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
+
+html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizelegibility;
 }
 
 html,
@@ -24,14 +41,15 @@ header {
 }
 
 .header-menu {
-    background-color: rgba(0, 0, 0, 0.85);
+    background-color: rgba(0, 0, 0, 0.95);
     width: 100%;
     height: 60px;
     position: fixed;
     top: 0;
     left: 0;
     z-index: 10000;
-    text-align: center
+    text-align: center;
+    border-bottom: 1.5px solid #FFFFFF;
 }
 
 .header-menu a {
@@ -40,11 +58,6 @@ header {
     font-family: OpenSans;
     font-size: 14px;
     padding: 0 25px;
-}
-
-.header-menu a:hover {
-    color: #FF0000;
-    cursor: pointer;
 }
 
 .sub-menu {
@@ -141,9 +154,9 @@ div.page {
 }
 
 .img-start { background: url(../img/banner-min.jpg) no-repeat 100% 100%; background-size: cover; }
-.page.img1 { background-color: rgba(0, 0, 0, 0.9); }
-.page.img2 { background-color: rgba(0, 0, 0, 0); }
-.page.img3 { background-color: rgba(0, 0, 0, 0.7); }
+.page.img1 { background-color: rgba(0, 0, 0, 0.85); }
+.page.img2 { background-color: rgba(255, 255, 255, 0.75); }
+.page.img3 { background-color: rgba(255, 255, 255, 1); }
 .page.img4 { background-color: rgba(0, 0, 0, 0); }
 .page.img5 { background-color: rgba(0, 0, 0, 0.7); }
 
@@ -230,7 +243,7 @@ div.page {
     height: 60px;
     line-height: 45px;
     z-index: 1;
-    background-color: rgba(0, 0, 0, 0.85);
+    background-color: rgba(0, 0, 0, 0.95);
     text-align: center;
 }
 
@@ -263,7 +276,7 @@ div.page {
     width: 350px;
     height: 100%;
     z-index: 1;
-    background-color: rgba(0, 0, 0, 0.85);
+    background-color: rgba(0, 0, 0, 0.95);
     color: #FFFFFF;
 }
 
@@ -321,6 +334,7 @@ div.page {
 .social-content img {
     height: 18px;
     margin-right: 5px;
+    vertical-align: middle;
 }
 
 .social-content a {
@@ -332,4 +346,63 @@ div.page {
     line-height: 14px;
     font-style: italic;
     cursor: pointer;
+}
+
+.about-content {
+    width: 1150px;
+    margin: 0 auto;
+    font-family: OpenSans;
+}
+
+.about-content-logo {
+    padding-top: 75px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    /*text-shadow: 3px 3px 25px #000000;*/
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+}
+
+.lines {
+    width: 100%;
+}
+
+.lines i {
+    /*text-shadow: 3px 3px 25px #000000;*/
+    vertical-align: top;
+}
+
+.lines p {
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+    /*text-shadow: 3px 3px 25px #000000;*/
+}
+
+.first-line {
+    padding-top: 30px;
+}
+
+.lines > div {
+    display: inline-block;
+    width: 380px;
+    height: 170px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.icon {
+    width: 100px;
+    height: 70px;
+    margin: 0 auto;
+}
+
+.icon-text {
+    width: 100%;
+    height: 30px;
+}
+
+.qrew-content {
+    width: 1150px;
 }

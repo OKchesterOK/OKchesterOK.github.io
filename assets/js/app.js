@@ -31,7 +31,6 @@ function showGoogleMaps() {
     var contentString1 = '<div id="content" style="text-align: center; font-family: OpenSans">'+
         '<div id="siteNotice">'+
         '</div>'+
-        '<p id="firstHeading" class="firstHeading" style="font-family: Homework; color: #FF0000; font-size: 55px; margin: 0">#TheNailRoom</p>'+
         '<div id="bodyContent">'+
         '<p>метро Берестейская</p>'+
         '<p>проспект Победы, 80/57</p>'+
@@ -41,7 +40,6 @@ function showGoogleMaps() {
     var contentString2 = '<div id="content" style="text-align: center; font-family: OpenSans">'+
         '<div id="siteNotice">'+
         '</div>'+
-        '<p id="firstHeading" class="firstHeading" style="font-family: Homework; color: #FF0000; font-size: 55px; margin: 0">#TheNailRoom</p>'+
         '<div id="bodyContent">'+
         '<p>метро Крещатик</p>'+
         '<p>улица Лютеранская, 13</p>'+
@@ -79,4 +77,3 @@ function showGoogleMaps() {
 }
 
 google.maps.event.addDomListener(window, 'load', showGoogleMaps);
-
